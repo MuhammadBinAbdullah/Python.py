@@ -1,0 +1,28 @@
+file = open("shopping-list.txt", "w")
+file.write("1. Lays\n")
+file.write("2. Marie Biscuit\n")
+file.write("3. Coca Cola\n")
+file.close()
+print("Shopping List Saved To shopping-list.txt!")
+
+file = open("shopping-list.txt", "r")
+content = file.read()
+print("\n=== My Shopping List ===")
+print(content)
+file.close()
+
+file = open("shopping-list.txt", "r")
+lines = file.readlines()
+print(f"You Have {len(lines)} Items On Your Shopping List.")
+file.close()
+
+file = open("shopping-list.txt", "a")
+file.write("4. Chocolate\n")
+file.write("5. Ice-Cream\n")
+file.close()
+print("\n2 More Items Added!")
+
+file = open("shopping-list.txt", "r")
+print("\n=== Updated Shopping List ===")
+print(file.read())
+file.close()
