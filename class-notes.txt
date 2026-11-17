@@ -1,13 +1,7 @@
-Maths: Learn equations today
-
-Coding: Variables and loops
-
-Science: Photosynthesis
-
-Coding: If statements
-
-English: Essay writing
-
-Coding: Functions and recursion
-
-History: World War II
+IMPORTANT: Complete Python homework
+TODO: Revise file handling concepts
+NOTE: read(n) previews characters
+IMPORTANT: Submit assignment today
+SKIP: This line is not needed
+NOTE: readlines() stores lines in a list
+TODO: Practise loops with files
